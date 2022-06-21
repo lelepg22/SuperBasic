@@ -27,7 +27,9 @@ namespace SuperBASIC
 				lib.AddFunction(new Functions.Arcsin(), 1, "ARCSIN");
 				lib.AddFunction(new Functions.Solver_Linear(), 3, "SOLVER_LINEAR");
 				lib.AddFunction(new Functions.Rem(), 2, "REM");
-
+				lib.AddFunction(new Functions.Cylinder_Vol(), 1, "CYLINDER_VOL");
+				lib.AddFunction(new Functions.Sphere_Vol(), 1, "SPHERE_VOL");
+				
 
 				Runtime r = new Runtime(lib);
 				if (args.Length <= 1)
