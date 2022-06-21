@@ -8,7 +8,7 @@ namespace SuperBASIC.Functions
     {
         float IFunction.Apply(List<BasicNumber> arguments)
         {
-            float x = arguments[0] % arguments[1];
+            float x = arguments[0].GetValue() % arguments[1].GetValue();
             return x;
         }
     }
