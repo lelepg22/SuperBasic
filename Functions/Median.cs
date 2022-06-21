@@ -16,13 +16,13 @@ namespace SuperBASIC
              if(index%2 == 0)
              {
                  index = index / 2;
-                 median = arguments[index];
+                 median = arguments[index].GetValue();
 
              }
             else
             {
                 index = (index - 1) / 2;
-                median = arguments[index];
+                median = arguments[index].GetValue();
             }
 
              return median;
