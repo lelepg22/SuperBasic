@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SuperBASIC
+namespace SuperBASIC.Functions
 {
-    class Quick_Select
+    class Cylinder_Vol
     {
     }
 }

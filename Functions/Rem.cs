@@ -4,7 +4,12 @@ using System.Text;
 
 namespace SuperBASIC.Functions
 {
-    class Rem
+    class Rem : IFunction
     {
+        float IFunction.Apply(List<BasicNumber> arguments)
+        {
+            float x = arguments[0] % arguments[1];
+            return x;
+        }
     }
 }
